@@ -9,7 +9,7 @@ const Home = () => {
     <div className="relative homePage h-screen">
       <Navbar />
       <div className="mt-5 flex flex-col xl:flex-row items-center gap-5 px-5 md:h-[calc(100vh-138px)] md:justify-around xl:justify-center">
-        <div className="xl:flex-1 md:text-center">
+        <div className="xl:flex-1 text-center">
           <h2 className="uppercase text-xl md:text-3xl">
             So, you want to travel to{" "}
           </h2>

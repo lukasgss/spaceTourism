@@ -8,3 +8,18 @@
     #1a1d27
   );
 }
+
+@keyframes navbarMobileAnimate {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.navbarMobile {
+  animation: navbarMobileAnimate 0.2s linear;
+}

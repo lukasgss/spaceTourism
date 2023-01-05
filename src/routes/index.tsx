@@ -7,7 +7,13 @@ import Explore from "../pages/Explore";
 import Crew from "../pages/Crew";
 import Technology from "../pages/Technology";
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+    },
+  },
+});
 
 const AppRoutes = () => {
   return (
