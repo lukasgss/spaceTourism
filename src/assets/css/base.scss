@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Barlow;
+  font-display: swap;
+  src: url("../fonts/Barlow-Regular.ttf");
+}
+
+@font-face {
+  font-family: Barlow Medium;
+  font-display: swap;
+  src: url("../fonts/Barlow-Medium.ttf");
+}
+
+@font-face {
+  font-family: Barlow SemiBold;
+  font-display: swap;
+  src: url("../fonts/Barlow-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Barlow Bold;
+  font-display: swap;
+  src: url("../fonts/Barlow-Bold.ttf");
+}
+
+@font-face {
+  font-family: Bellefair;
+  font-display: swap;
+  src: url("../fonts/Bellefair-Regular.ttf");
+}
+
+$base-gray: #d0d6f9;
+
+html,
+body {
+  font-family: Barlow, sans-serif;
+  color: #fff;
+}
+
+.bellefairFont {
+  font-family: Bellefair, sans-serif;
+}
+
+h2,
+p,
+span {
+  color: $base-gray;
+}
