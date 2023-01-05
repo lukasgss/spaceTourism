@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import Navbar from "../../components/Navbar";
 import Destinations from "./components/Destinations";
-import { getCelestialBodiesData } from "../../services/Api";
 import { CelestialBodiesNames } from "./types";
+import { getCelestialBodiesData } from "../../services/Explore";
 import CelestialBodiesData from "./components/CelestialBodiesData";
 
 import "./index.scss";
